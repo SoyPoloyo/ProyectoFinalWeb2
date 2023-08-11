@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+}
+
+/* Cambia 'sans-serif' por la fuente deseada para títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Cambia 'sans-serif' por la fuente deseada para texto general */
+p, a, li {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para el menú */
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00b300; /* Cambio a verde */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: 500;
+    font-size: 1.2rem; /* Tamaño de fuente más grande */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #009900; /* Cambio de color al hacer hover */
+}
+
+.navbar-nav .active .nav-link {
+    color: #009900; /* Color para el enlace de la página actual */
+}
+
+
+/* Estilos para el footer */
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    color: #666;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+.social-links .btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff; /* Cambio a blanco */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00b300; /* Cambio a verde */
+}
+
+/* Estilos para el encabezado (header) */
+.banner {
+    padding: 90px 0;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.banner-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.banner-btn {
+    background-color: #00b300; /* Cambio a verde */
+    border-color: #00b300; /* Cambio a verde */
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.banner-btn:hover {
+    background-color: #009900; /* Cambio a un verde más oscuro */
+    border-color: #009900; /* Cambio a un verde más oscuro */
+}
+
+.customer-welcome img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.customer-welcome img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el contenido principal */
+.main-content {
+    padding-top: 10px;
+}
