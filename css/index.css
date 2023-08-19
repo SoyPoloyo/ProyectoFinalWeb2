@@ -89,7 +89,7 @@
 
 /* Estilos para la sección de banner */
 .banner-section {
-    background-image: url('../assets/images/rabbit.jpg');
+    
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -210,4 +210,44 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+
+  
+#redes-sociales {
+    padding: 10px 0;
+    position: relative;
+    color: #fff;
+}
+
+#redes-sociales h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+/* Estilos para el fondo parallax */
+.parallax-bg {
+    background-image: url("../assets/images/rabbit.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 100px 0;
 }

@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios - Cespedelium</title>
+    <link rel="icon" href="favicon.png" type="image/png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/styles.css"> <!-- Agrega el enlace a tu archivo de estilos personalizados -->
     <link rel="stylesheet" href="css/servicios.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Cespedelium</a>
+            <a class="navbar-brand" href="index.html">Cespedelium</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -184,6 +187,27 @@
                 </div>
            
 
+                <section class="testimonial-section">
+                    <div class="testimonial-carousel">
+                        <div class="testimonial-content">
+                            <p>" Mi patio ahora luce increíble gracias al césped sintético que instalamos."</p>
+                            <p class="client-name">- Juan Pérez</p>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial-content">
+                                <p>"¡Excelente servicio y calidad! Estoy muy satisfecho con el resultado."</p>
+                                <p class="client-name">- 
+                                    Miguel del rio
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Agregar más opiniones según sea necesario -->
+                    </div>
+                </section>
+                
+                <br><br>
+                
+
         </section>
     </main>
 
@@ -210,7 +234,7 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     
@@ -225,6 +249,22 @@
             $('.modal-backdrop').remove();
         });
     </script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".testimonial-carousel").slick({
+            dots: true, // Mostrar puntos de navegación
+            prevArrow: '<button class="slick-prev">Anterior</button>',
+            nextArrow: '<button class="slick-next">Siguiente</button>'
+        });
+    });
+</script>
+
+
+
 
 </body>
 

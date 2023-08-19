@@ -145,3 +145,49 @@
 
 
 
+/* carrusel */
+.testimonial-section {
+    background-image: url("../assets/images/banner\ 1.webp");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.testimonial-container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.testimonial-slide {
+    display: none;
+}
+
+.testimonial-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.client-name {
+    margin-top: 10px;
+}
+
+.carousel-nav {
+    margin-top: 20px;
+}
+
+.carousel-nav button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+/* Agregar estilos adicionales según sea necesario */
+
